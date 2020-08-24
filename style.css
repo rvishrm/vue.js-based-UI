@@ -25,7 +25,7 @@
 }
 
 .slider{
-    background-image: url('./webpage/pics/slider.png');
+    background-image: url('./pics/slider.png');
     background-repeat: no-repeat;
     background-size:contain;
     padding:0px;
@@ -39,12 +39,12 @@
 }
 
 #slider1{
-    background-image: url('/webpage/pics/slider.png');
+    background-image: url('./pics/slider.png');
     float:right;
 }
 
 #slider2{
-    background-image: url('/webpage/pics/slider2.png');
+    background-image: url('./pics/slider2.png');
     float:left;
     
 }

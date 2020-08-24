@@ -9,7 +9,7 @@ new Vue({
         changePicRight: function(){
             this.pictureNumber += 1;
             // console.log(this.pictureNumber);
-            this.url = `background-image:url("/pics/wireless` + this.pictureNumber +`.jpg")`;
+            this.url = `background-image:url("./pics/wireless` + this.pictureNumber +`.jpg")`;
             
             console.log(this.url);
             // console.log(typeof String(this.pictureNumber+1))
@@ -17,7 +17,7 @@ new Vue({
         changePicLeft: function(){
             this.pictureNumber -= 1;
             // console.log(this.pictureNumber);
-            this.url = `background-image:url("/pics/wireless` + this.pictureNumber +`.jpg")`;
+            this.url = `background-image:url("./pics/wireless` + this.pictureNumber +`.jpg")`;
             
             console.log(this.url);
             // console.log(typeof String(this.pictureNumber+1))
