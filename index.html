@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/vue"></script>
+    
+</head>
+<body style='margin:0px; padding:0' >
+    <div id='one' v-bind:style="url" >
+            <div id='header'>
+                <h2>JBL</h2>
+            </div>
+            <!-- <div style="height: 500px;"></div> -->
+             <!-- <img v-bind:src="url"> -->
+             <button @click='changePicRight' class='slider' id='slider1' v-if="pictureNumber<5">
+                <!-- <img src='/webpage/pics/slider.png'/> -->
+            </button>
+            <button @click='changePicLeft' class='slider' id='slider2'  v-if="pictureNumber>1">
+                <!-- <img src='/webpage/pics/slider.png'/> -->
+            </button>
+    </div>
+
+    <script src = "web.js"> </script>
+    
+</body>
+</html>

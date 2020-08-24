@@ -1,0 +1,50 @@
+#header {
+    height: 50px;
+    max-width: 100%;
+    background-color: #0239;
+    
+    color: white;
+    margin: 0px;
+    padding:0;
+    text-align: center;
+}
+
+#one{
+    background-image: url('/webpage/pics/wireless.jpg');
+    
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* background-position-x: center; */
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    /* border-right: 1px solid grey; */
+    /* float:left; */
+    padding:0;
+    margin: 0;
+}
+
+.slider{
+    background-image: url('/webpage/pics/slider.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding:0px;
+    height:15%;
+    width:30px;
+    opacity:.40;
+    border:0;
+    position: relative;
+    top:200px;
+    float:right;
+}
+
+#slider1{
+    background-image: url('/webpage/pics/slider.png');
+    float:right;
+}
+
+#slider2{
+    background-image: url('/webpage/pics/slider2.png');
+    float:left;
+    
+}
