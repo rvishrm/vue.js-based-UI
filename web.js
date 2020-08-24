@@ -1,7 +1,7 @@
 new Vue({
     el:"#one",
     data:{
-       url:`background-image: url("/webpage/pics/wireless1.jpg")`,
+       url:`background-image: url("/pics/wireless1.jpg")`,
         pictureNumber: 1,
         ended: false
     },
