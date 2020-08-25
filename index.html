@@ -19,25 +19,25 @@
         </div>
        
 
-        <div id="container" >
+        <div id="container" v-bind:style='backImgTag' >
             
         </div>
         <div id="main">
-            <div id="scroller" v-bind:style="url">
-                    <img @click="changeBackground(1)"src="/webpage/pics/1.png">
-                    <img @click="changeBackground(1)" src="/webpage/pics/2.png">
-                    <img @click="changeBackground(1)" src="/webpage/pics/3.png">
-                    <img @click="changeBackground(1)" src="/webpage/pics/4.png">
-                    <img @click="changeBackground(1)" src="/webpage/pics/5.png">
-                    <img  @click="changeBackground(1)" src="/webpage/pics/6.png">
-                    <img @click="changeBackground(1)" src="/webpage/pics/7.png">
-                    <img @click="changeBackground(1)" src="/webpage/pics/8.png">
+            <div id="scroller" v-bind:style="url ">
+                    <img @click="changeBackground(1)"src="./pics/1.png">
+                    <img @click="changeBackground(2)" src="./pics/2.png">
+                    <img @click="changeBackground(3)" src="./pics/3.png">
+                    <img @click="changeBackground(4)" src="./pics/4.png">
+                    <img @click="changeBackground(5)" src="./pics/5.png">
+                    <img  @click="changeBackground(6)" src="./pics/6.png">
+                    <img @click="changeBackground(7)" src="./pics/7.png">
+                    <img @click="changeBackground(8)" src="./pics/8.png">
                     <!-- <img src="/webpage/pics/5.png">   -->
             </div>
-            <div class="btn btn-prev" aria-label="Previous slide" @click="changePicLeft">
+            <div  class="btn btn-prev" aria-label="Previous slide" @click="changePicLeft" v-if = 'count'>
                 &#10094;
             </div>
-            <div class="btn btn-next" aria-label="Next slide" @click="changePicRight">
+            <div class="btn btn-next"  aria-label="Next slide" @click="changePicRight" v-if=(count!=4)>
             &#10095;
             </div>
         </div>
