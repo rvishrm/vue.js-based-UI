@@ -3,6 +3,18 @@
 body{
 
     background-color:black;
+    height:100em;
+    color:red;
+}
+
+#one{     
+    margin: 0 15% 0 15%;
+    width:70%;
+     height:70% ;
+     position: absolute;
+     top:0%
+    /* overflow: hidden; */
+    
 }
 
 #header {
@@ -11,6 +23,7 @@ body{
     background-color: #000;
     margin: 0;
     padding:0;
+    
     /* opacity: 0.3; */
     display: flex;
     justify-content: center;
@@ -57,23 +70,20 @@ h1 span:nth-child(3){
 
 }
 
-#one{     
-    margin: auto;
-    width:70%;
-     /* height:70%  */
-    /* overflow: hidden; */
-    
-}
 
 #container{
     background-image: url('./pics/1.png') ;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain;
-    /* position:absolute; */
-    /* top:5%; */
-    max-width:75em;
+    /* max-width:75em; */
     height:100%;
+    /* border:10px solid red; */
+    position: absolute;
+    top:12%;
+    left:0%;
+    right:0%;
+    /* margin:0 15% 0 15%; */
     /* margin-top: 10px; */
     
 }
@@ -82,11 +92,11 @@ h1 span:nth-child(3){
     /* display: flex; */
     /* margin: 5px; */
     position:absolute;
-    top:85%;
-    right:15%;
-    left:15%;
+    top:90%;
+    right:0%;
+    left:0%;
     max-width: 100%;
-    /* max-height: 100%; */
+    max-height: 100%;
     /* border: 2px solid yellow */
 }
 
@@ -137,4 +147,8 @@ img:hover {
   .btn:hover {
     transform: scale(1.1);
   }
-  
+  #new{
+      position: absolute;
+      top:90%;
+    margin:0 4% 0 12% 
+  }
