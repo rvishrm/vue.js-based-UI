@@ -8,18 +8,61 @@
     
 </head>
 <body style='margin:0px; padding:0' >
-    <div id='one' v-bind:style="url" >
-            <div id='header'>
-                <h2>JBL Earphones</h2>
+    
+    <div id='one'  >
+        <div id='header'>
+            <h1>
+                <span>J</span>
+                <span>B</span>
+                <span>L</span>
+            </h1>
+        </div>
+       
+
+        <div id="container" >
+            
+        </div>
+        <div id="main">
+            <div id="scroller" v-bind:style="url">
+                    <img @click="changeBackground(1)"src="/webpage/pics/1.png">
+                    <img @click="changeBackground(1)" src="/webpage/pics/2.png">
+                    <img @click="changeBackground(1)" src="/webpage/pics/3.png">
+                    <img @click="changeBackground(1)" src="/webpage/pics/4.png">
+                    <img @click="changeBackground(1)" src="/webpage/pics/5.png">
+                    <img  @click="changeBackground(1)" src="/webpage/pics/6.png">
+                    <img @click="changeBackground(1)" src="/webpage/pics/7.png">
+                    <img @click="changeBackground(1)" src="/webpage/pics/8.png">
+                    <!-- <img src="/webpage/pics/5.png">   -->
             </div>
-            <!-- <div style="height: 500px;"></div> -->
-             <!-- <img v-bind:src="url"> -->
-             <button @click='changePicRight' class='slider' id='slider1' v-if="pictureNumber<5">
-                <!-- <img src='/webpage/pics/slider.png'/> -->
-            </button>
-            <button @click='changePicLeft' class='slider' id='slider2'  v-if="pictureNumber>1">
-                <!-- <img src='/webpage/pics/slider.png'/> -->
-            </button>
+            <div class="btn btn-prev" aria-label="Previous slide" @click="changePicLeft">
+                &#10094;
+            </div>
+            <div class="btn btn-next" aria-label="Next slide" @click="changePicRight">
+            &#10095;
+            </div>
+        </div>
+        <p>
+            
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+            jabJKNDBHKNSSSSSSSSSSSSSSSSSSSSS
+        </p>
+
+            
+    <!-- <div style="height: 500px;"></div> -->
+        <!-- <img v-bind:src="url"> -->
+        
+            
+             
     </div>
 
     <script src = "web.js"> </script>

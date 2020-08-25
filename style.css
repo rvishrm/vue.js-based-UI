@@ -1,50 +1,127 @@
-#header {
-    height: 50px;
-    max-width: 100%;
-    background-color: #0239;
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
     
-    color: white;
+body{
+
+    background-color:black;
+}
+
+#header {
+    height: 80px;
+    max-width: 100%;
+    background-color: #000;
     margin: 0px;
     padding:0;
-    text-align: center;
+    /* opacity: 0.3; */
+    display: flex;
+    justify-content: center;
 }
-
-#one{
-    background-image: url('./pics/wireless.jpg');
-     
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    /* background-position-x: center; */
-    background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
-    /* border-right: 1px solid grey; */
-    /* float:left; */
-    padding:0;
+h1{
     margin: 0;
+    padding:0;
+    color:#111;
+    font-size:50px;
+    height: 100%;
+    font-family: 'Bad Script';
+}
+h1 span{
+    /* display:table-cell; */
+    animation: animate 2s linear infinite;
+
+}
+h1 span:nth-child(1){
+    animation-delay: 0s;
+}
+h1 span:nth-child(2){
+    animation-delay: 0.333s;
+}
+h1 span:nth-child(3){
+    animation-delay: 0.667s;
 }
 
-.slider{
-    background-image: url('./pics/slider.png');
-    background-repeat: no-repeat;
-    background-size:contain;
-    padding:0px;
-    height:15%;
-    width:30px;
-    opacity:.40;
-    border:0;
-    position: relative;
-    top:200px;
-    float:right;
+@keyframes animate {
+0%,100%{
+    color:#fff;
+    filter:blur(2px);
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 50px #00b3ff,
+                0 0 100px #00b3ff;
+                
+}
+5%,95%{
+    color:#111;
+    filter:blur(0px);
+    text-shadow: 0 0 10px none;
 }
 
-#slider1{
-    background-image: url('./pics/slider.png');
-    float:right;
 }
 
-#slider2{
-    background-image: url('./pics/slider2.png');
-    float:left;
+#one{     
+    margin: auto;
+    max-width:70%;
+    /* overflow: hidden; */
     
 }
+
+#container{
+    background-image: url('/webpage/pics/1.png') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    height:680px;
+    
+}
+#main{
+    overflow:hidden;
+    /* display: flex; */
+    margin: 5px;
+    width: 100%;
+    border: 2px solid yellow
+}
+
+#scroller{
+    display: flex;
+    width:200%;
+}
+#scroller img{
+    width: 12.5%;
+    
+}
+img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+.boder-green{
+    border:2px solid green;
+}
+
+.btn {
+    z-index: 15;
+    cursor: pointer;
+    border: 3px solid  skyblue;
+    color:skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 84%;
+    /* float:left; */
+    /* left: 1%; */
+    transition: transform 0.3s ease-in-out;
+    user-select: none;
+  }
+  
+  .btn-next {
+    left: auto;
+    /* float:right; */
+    right: 15%;
+
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  
