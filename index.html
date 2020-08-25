@@ -3,7 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JBL Earphones</title>
+    
     <link href="style.css" rel="stylesheet"/>
+    
     <script src="https://unpkg.com/vue"></script>
     
 </head>
@@ -34,11 +36,13 @@
                     <img @click="changeBackground(8)" src="./pics/8.png">
                     <!-- <img src="/webpage/pics/5.png">   -->
             </div>
-            <div  class="btn btn-prev" aria-label="Previous slide" @click="changePicLeft" v-if = 'count'>
-                &#10094;
-            </div>
-            <div class="btn btn-next"  aria-label="Next slide" @click="changePicRight" v-if=(count!=4)>
-            &#10095;
+             <div>     
+                    <div  class="btn btn-prev" aria-label="Previous slide" @click="changePicLeft" v-if = 'count'>
+                        &#10094;
+                    </div>
+                    <div class="btn btn-next"  aria-label="Next slide" @click="changePicRight" v-if=(count!=4)>
+                    &#10095;
+                    </div>
             </div>
         </div>
         <p>
