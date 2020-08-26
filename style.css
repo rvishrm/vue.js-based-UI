@@ -154,28 +154,17 @@ img:hover {
   .btn:hover {
     transform: scale(1.1);
   }
-  #new{
-      position: absolute;
-      top:105%;
-      left:15%;
-      right:8%;
-      height:8%;
-      /* text-align: center; */
-      color:#bb86fc;
-      font-size:.7em;
-      /* border: 2px solid skyblue; */
-      margin: 0; 
-  }
+  
   #last{
       /* position: absolute; */
         position:absolute;
-        top:46vw;
+        top:48vw;
         right:10%;
         left:10%;
       height:100em;
-      border:2px solid red;
+      /* border:2px solid red; */
   }
-  .span{
+  .div{
    
     height:100%;
     color:white;
@@ -183,78 +172,40 @@ img:hover {
     /* background-color:white; */
     /* border:2px solid yellow; */
   }
-  .span:nth-of-type(1){
+  .div:nth-of-type(1){
       
       /* border: 2px solid yellow; */
       height:20vw;
       font-family: serif;
       font-size:1.5vw;
       font-weight:normal;
-      letter-spacing: 100%;
       font-family: 'Lora', serif;
       color:lightslategray;
       text-align: justify;
       /* text-align:center; */
       letter-spacing: .1em;
   }
-  .span:nth-of-type(1) h2{
-      font-size: 1.8em;
+  .div:nth-of-type(1) h2{
+      font-size: 2vw;
+      font-family:  serif;
       color:lightyellow;
   }
-  .span:nth-of-type(2){
-   
+  .div:nth-of-type(2){
     text-align: justify;
-    border:2px solid green;
+    text-align: justify;
+    /* border:2px solid green; */
     color:lightslategray;
     font-family: 'Lora', serif;
       font-size:1.5vw;
       font-weight:normal;
      
 }
-.span:nth-of-type(2) h2{
+.div:nth-of-type(2) h2{
     font-family:  serif;
     color:lightyellow;
-    font-size: 1.8vw;
+    font-size: 2vw;
 }
 dt{
     color:#00b3ff;
    
 }
-.span div{
-    width:100%;
-}
-.span span:nth-of-type(2){
-    width:100%;
-    border:2px solid green;
-    background-image: url('/webpage/pics/new.jpg');
-    background-position:right center;
-    background-repeat: no-repeat;
-}
-.span span:nth-of-type(4){
-    width:100%;
-    border:2px solid green;
-    background-image: url('/webpage/pics/ambient-aware.jpg');
-    background-position:right center;
-    background-repeat: no-repeat;
-}
-.span span:nth-of-type(6){
-    width:100%;
-    border:2px solid green;
-    background-image: url('/webpage/pics/dual_mic.jpg');
-    background-position:right center;
-    background-repeat: no-repeat;
-    
-    /* background-size: cover; */
-}
-.span span:nth-of-type(8){
-    width:100%;
-    border:2px solid green;
-    background-image: url('/webpage/pics/dual-aux.jpg');
-    background-position:right center;
-    background-repeat: no-repeat;
-}
-
-/* .span div:nth-of-type(1) span{
-    position: absolute;
-    right:10%;
-} */
