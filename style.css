@@ -49,17 +49,20 @@ h1 span{
 }
 h1 span:nth-child(1){
     animation-delay: 0s;
+    color:pink;
 }
 h1 span:nth-child(2){
     animation-delay: 0.333s;
+    color:#1a5f7e;
 }
 h1 span:nth-child(3){
     animation-delay: 0.667s;
+    color:#14edc9;
 }
 
 @keyframes animate {
 0%,100%{
-    color:#fff;
+    
     filter:blur(2px);
     text-shadow: 0 0 10px #00b3ff,
                 0 0 50px #00b3ff,
@@ -67,7 +70,7 @@ h1 span:nth-child(3){
                 
 }
 5%,95%{
-    color:#111;
+    color:#000;
     filter:blur(0px);
     text-shadow: 0 0 10px none;
 }
