@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text"); 
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+
 body{
 
     background-color:black;
     height:100em;
-    color:red;
+    color:#bb86fc;
     font-family: 'Bad Script';
-    text-decoration-color: lawngreen;
+    
 }
 
 #one{     
     margin: 0 15% 0 15%;
     width:70%;
-     height:75%;
+     height:30vw;
      position: absolute;
      top:0%
     /* overflow: hidden; */
@@ -20,13 +23,12 @@ body{
 }
 
 #header {
-    height: 8%;
+    
     max-width: 100%;
-    background-color: #000;
+    /* background-color: #000; */
     margin: 0;
     padding:0;
-    
-    /* opacity: 0.3; */
+       /* opacity: 0.3; */
     display: flex;
     justify-content: center;
 }
@@ -34,8 +36,8 @@ h1{
     margin: 0;
     position: sticky;
     padding:0;
-    color:#111;
-    font-size:70px;
+    color: #bb86fc;
+    font-size:4vw;
     height: 100%;
     
     font-family: 'Crimson Bad Script';
@@ -80,10 +82,11 @@ h1 span:nth-child(3){
     background-size: 100% 85%;
     /* background-clip: padding-box; */
     /* max-width:75em; */
-    height:100%;
+    height:35vw;
     /* border:10px solid red; */
     position: absolute;
-    top:12%;
+    /* top:12%; */
+    top:4vw;
     left:0%;
     right:0%;
     /* margin:0 15% 0 15%; */
@@ -95,7 +98,7 @@ h1 span:nth-child(3){
     /* display: flex; */
     /* margin: 5px; */
     position:absolute;
-    top:112%;
+    top:38vw;
     right:0%;
     left:0%;
     max-width: 100%;
@@ -153,7 +156,105 @@ img:hover {
   }
   #new{
       position: absolute;
-      top:110%;
-      border: 2px solid skyblue;
-    margin: 0 7%; 
+      top:105%;
+      left:15%;
+      right:8%;
+      height:8%;
+      /* text-align: center; */
+      color:#bb86fc;
+      font-size:.7em;
+      /* border: 2px solid skyblue; */
+      margin: 0; 
   }
+  #last{
+      /* position: absolute; */
+        position:absolute;
+        top:46vw;
+        right:10%;
+        left:10%;
+      height:100em;
+      border:2px solid red;
+  }
+  .span{
+   
+    height:100%;
+    color:white;
+    font-size: 1.5em;
+    /* background-color:white; */
+    /* border:2px solid yellow; */
+  }
+  .span:nth-of-type(1){
+      
+      /* border: 2px solid yellow; */
+      height:20vw;
+      font-family: serif;
+      font-size:1.5vw;
+      font-weight:normal;
+      letter-spacing: 100%;
+      font-family: 'Lora', serif;
+      color:lightslategray;
+      text-align: justify;
+      /* text-align:center; */
+      letter-spacing: .1em;
+  }
+  .span:nth-of-type(1) h2{
+      font-size: 1.8em;
+      color:lightyellow;
+  }
+  .span:nth-of-type(2){
+   
+    text-align: justify;
+    border:2px solid green;
+    color:lightslategray;
+    font-family: 'Lora', serif;
+      font-size:1.5vw;
+      font-weight:normal;
+     
+}
+.span:nth-of-type(2) h2{
+    font-family:  serif;
+    color:lightyellow;
+    font-size: 1.8vw;
+}
+dt{
+    color:#00b3ff;
+   
+}
+.span div{
+    width:100%;
+}
+.span span:nth-of-type(2){
+    width:100%;
+    border:2px solid green;
+    background-image: url('/webpage/pics/new.jpg');
+    background-position:right center;
+    background-repeat: no-repeat;
+}
+.span span:nth-of-type(4){
+    width:100%;
+    border:2px solid green;
+    background-image: url('/webpage/pics/ambient-aware.jpg');
+    background-position:right center;
+    background-repeat: no-repeat;
+}
+.span span:nth-of-type(6){
+    width:100%;
+    border:2px solid green;
+    background-image: url('/webpage/pics/dual_mic.jpg');
+    background-position:right center;
+    background-repeat: no-repeat;
+    
+    /* background-size: cover; */
+}
+.span span:nth-of-type(8){
+    width:100%;
+    border:2px solid green;
+    background-image: url('/webpage/pics/dual-aux.jpg');
+    background-position:right center;
+    background-repeat: no-repeat;
+}
+
+/* .span div:nth-of-type(1) span{
+    position: absolute;
+    right:10%;
+} */
